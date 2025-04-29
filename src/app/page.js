@@ -308,7 +308,7 @@ const Page = () => {
 
   return (
     <div className="min-h-[80vh] relative">
-      <h1 className=" text-6xl flex justify-center text-center top-5">Hello  Male</h1>
+      <h1 className=" text-6xl flex justify-center text-center top-5">Hell   Male</h1>
       <div className="grid grid-cols-3 gap-2 w-[90vw] mx-auto my-8">
         {foods.length > 0 ? (
           foods.slice(0, 9).map((item) => (
